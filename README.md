@@ -1,363 +1,121 @@
-# 🤖 AIML • SEM 4 • GM UNIVERSITY
+# 🤖 AIML · Semester 4 · GM University
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Artificial%20Intelligence-%26%20Machine%20Learning-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Semester-04-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/GM%20University-2026--27-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Course-UE24CS2401-6C5CE7?style=for-the-badge" alt="Course UE24CS2401" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/Learning-Labs%20%7C%20Notes%20%7C%20Practice-00A884?style=for-the-badge" alt="Learning resources" />
 </p>
 
-<p align="center">
-  <b>🚀 AIML Lab Programs • 📚 Modules • 📝 Important Questions • 📊 Datasets • 💻 Practical Resources</b>
-</p>
+A student-focused collection of **Artificial Intelligence and Machine Learning** lab programs, module resources, assignments, question banks, datasets, and practical examples for GM University.
 
----
+> **Learn the idea → trace the algorithm → run the code → explain the result.**
 
-## ✨ What's This? 
+## 🧭 Start here
 
-Welcome to my **AIML Semester 4 repository**!
+| Goal | Start with |
+|---|---|
+| Set up Python and dependencies | [Environment setup](docs/SETUP.md) |
+| Find existing lab and study resources | [Lab & resource catalog](docs/LAB_CATALOG.md) |
+| Follow a structured learning order | [Learning path](docs/ROADMAP.md) |
+| Revise modules 1–5 | [Module study guides](docs/INDEX.md#module-guides) |
+| Prepare for practicals and viva | [Exam preparation](docs/EXAM_PREP.md) · [Viva questions](docs/VIVA_QUESTIONS.md) |
+| Explore runnable examples | [Examples directory](examples/README.md) |
+| Contribute a fix or new example | [Contribution guide](CONTRIBUTING.md) |
 
-This repo is a centralized collection of **lab programs, implementations, notes, assignments, important questions, datasets, outputs, and study material** for the **Artificial Intelligence & Machine Learning** course at **GM University**.
+## 📚 What is already in this repository?
 
-> 🧠 **Learn → Implement → Experiment → Understand**
+- Original Python lab programs and assignments.
+- Module notes, presentations, PDFs, and question banks.
+- AIML practical reports and supporting output files.
+- Dataset and visualisation resources.
 
-Whether you're preparing for a **lab exam, IA, assignment, viva, or semester exam**, you'll find useful resources here.
+Use the [resource catalog](docs/LAB_CATALOG.md) to locate the existing material. Original course files are retained; the new guides and examples supplement them rather than claiming to replace official faculty material.
 
----
+## 🧪 Practical examples
 
-## 🧩 What's Inside?
+The `examples/` directory contains small, focused demonstrations for:
 
-<div align="center"> 
+- **Search:** breadth-first search, depth-first search, A* and AO* concepts.
+- **Preprocessing:** missing values, encoding, scaling and train/test splitting.
+- **Supervised learning:** KNN, linear regression, decision trees and Naive Bayes.
+- **Unsupervised learning:** K-means clustering.
+- **Evaluation:** confusion matrices, classification metrics and cross-validation.
 
+Each example is intended to be readable and runnable independently. Check its docstring and the examples guide before running it.
 
-|      🧪 LABS      |    📚 NOTES   |       📝 EXAMS      |
-| :---------------: | :-----------: | :-----------------: |
-|  Python Programs  |   Module 1–5  | Important Questions |
-|   ML Algorithms   | Concept Notes |    Question Banks   |
-| Practical Outputs |  PDFs & Docs  |    IA Preparation   |
+## ⚙️ Quick start
 
-|      🤖 ML     |    📊 DATA    |  📄 RESOURCES  |
-| :------------: | :-----------: | :------------: |
-|   Regression   |  CSV Datasets |   Assignments  |
-| Decision Trees | Training Data |     Reports    |
-|       KNN      |    Results    |  Viva Material |
-|   Clustering   |     Graphs    | Study Material |
-
-</div>
-
----
-
-# 🧠 AIML Roadmap
-
-```text
-                     🤖 ARTIFICIAL INTELLIGENCE
-                              │
-                              ▼
-                    🧠 MACHINE LEARNING
-                              │
-             ┌────────────────┼────────────────┐
-             ▼                ▼                ▼
-        SUPERVISED       UNSUPERVISED      SEARCH / AI
-             │                │                │
-        ┌────┴────┐           │          ┌─────┴─────┐
-        ▼         ▼           ▼          ▼           ▼
-    Regression  KNN       Clustering    AO*       Reasoning
-        │         │           │
-        ▼         ▼           ▼
-   Decision Tree  │       Data Analysis
-        │         │
-        └────┬────┘
-             ▼
-       📈 ML APPLICATIONS
-```
-
----
-
-# 📚 Modules
-
-### 🔹 Module 01 — Foundations of AI & ML
-
-> The building blocks of Artificial Intelligence and Machine Learning.
-
-* Introduction to AI
-* Machine Learning fundamentals
-* Learning approaches
-* Intelligent systems
-* Problem solving
-
----
-
-### 🔹 Module 02 — Knowledge & Reasoning
-
-> How AI systems represent knowledge and make decisions.
-
-* Knowledge Representation
-* Reasoning
-* Search techniques
-* Problem solving
-* AI decision making
-
----
-
-### 🔹 Module 03 — Learning & Similarity
-
-> Understanding how machines learn from examples and similarities.
-
-* Concept Learning
-* Similarity-Based Learning
-* K-Nearest Neighbors
-* Classification
-* Learning algorithms
-
----
-
-### 🔹 Module 04 — Regression & Decision Trees
-
-> Predictive models and tree-based machine learning.
-
-* Regression Analysis
-* Linear Regression
-* Decision Tree Learning
-* Classification
-* Model evaluation
-
----
-
-### 🔹 Module 05 — Advanced ML
-
-> Exploring important machine learning techniques.
-
-* 🧩 Clustering
-* 🧠 Bayesian Learning
-* 🕸️ Artificial Neural Networks
-* 🔍 Unsupervised Learning
-* 📊 Data Analysis
-
----
-
-# 💻 Lab Programs
-
-Some of the practical implementations included in this repository:
-
-```text
-📁 AIML LAB
-│
-├── 🐍 aimllab2.py
-├── 🐍 aimllab3.py
-├── 🐍 Lab4.py
-├── 🐍 lab 5.py
-├── 🐍 LAB 6.PY
-├── 🐍 LAB 7.py
-├── 🐍 LAB 8.py
-├── 🐍 AO.py
-├── 🐍 PRG3.PY
-└── 🐍 assignment code.py
-```
-
-### 🔬 Concepts Covered
-
-* Regression
-* Classification
-* KNN
-* Decision Trees
-* Similarity-Based Learning
-* AO* Search
-* Clustering
-* Bayesian Learning
-* Artificial Neural Networks
-* Data preprocessing
-* Visualization
-
----
-
-# 🛠️ Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn,git,github,vscode" />
-
-</p>
-
-| Technology          | Usage                     |
-| ------------------- | ------------------------- |
-| 🐍 **Python**       | Core programming language |
-| 🔢 **NumPy**        | Numerical computation     |
-| 🐼 **Pandas**       | Data manipulation         |
-| 📊 **Matplotlib**   | Data visualization        |
-| 🤖 **Scikit-learn** | Machine Learning          |
-| 💻 **VS Code**      | Development               |
-| 🌐 **Git & GitHub** | Version control           |
-
----
-
-# 📊 Repository Highlights
-
-```text
-🧪 Practical Programs
-        ↓
-📊 Dataset
-        ↓
-⚙️ Preprocessing
-        ↓
-🤖 ML Algorithm
-        ↓
-📈 Results
-        ↓
-🧠 Analysis
-```
-
-The repository also contains **program outputs, graphs, datasets, PDFs, DOCX files and supporting academic material**.
-
----
-
-# 🚀 Getting Started
-
-### 1️⃣ Clone the repository
+Requires Python 3.10 or newer.
 
 ```bash
 git clone https://github.com/Atharva-ark06/AIML-SEM-4-GM-university-Lab-programs-IMPQ-s-Modules-.git
-```
-
-### 2️⃣ Enter the project
-
-```bash
 cd AIML-SEM-4-GM-university-Lab-programs-IMPQ-s-Modules-
+python -m venv .venv
 ```
 
-### 3️⃣ Install dependencies
+Activate the environment:
+
+```powershell
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+```
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn
+# macOS / Linux
+source .venv/bin/activate
 ```
 
-### 4️⃣ Run a program
+Install dependencies and run the tests:
 
 ```bash
-python AO.py
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pytest
 ```
 
-or:
+Run an example:
 
 ```bash
-python "LAB 6.PY"
+python examples/search/bfs.py
+python examples/ml/linear_regression.py
 ```
 
----
+For existing root-level lab programs, follow the individual program's imports and instructions; some legacy scripts may open plots or require interactive input.
 
-# 📂 Resource Categories
+## 🗂️ Repository map
 
 ```text
-📦 AIML SEM 4
-│
-├── 🤖 AIML Programs
-│
-├── 📚 Module Notes
-│   ├── Module 01
-│   ├── Module 02
-│   ├── Module 03
-│   ├── Module 04
-│   └── Module 05
-│
-├── 📝 Important Questions
-│
-├── 📊 Datasets
-│
-├── 📈 Outputs
-│
-├── 📄 Assignments
-│
-└── 📑 Reports & Study Material
+.
+├── AIMI ALL/             # Additional module resources and course files
+├── docs/                 # Study guides, exam prep, reference sheets
+├── examples/
+│   ├── search/           # Classical AI search demonstrations
+│   └── ml/               # Preprocessing and machine-learning examples
+├── datasets/             # Small, clearly documented practice datasets
+├── tests/                # Automated checks for maintained examples
+├── scripts/              # Repository maintenance helpers
+├── README.md
+├── requirements.txt
+└── pyproject.toml
 ```
 
----
+## 🎓 Course information
 
-# 🎯 Perfect For
+| Field | Detail |
+|---|---|
+| University | GM University |
+| Course | Artificial Intelligence & Machine Learning |
+| Course code | UE24CS2401 |
+| Original collection | Semester 4 lab programs, modules, assignments and IMPQs |
 
-<table>
-<tr>
-<td>🧑‍💻 AIML Students</td>
-<td>🧪 Lab Preparation</td>
-<td>🎓 Exam Preparation</td>
-</tr>
-<tr>
-<td>📝 IA Preparation</td>
-<td>🎤 Viva Preparation</td>
-<td>📚 Quick Revision</td>
-</tr>
-</table>
+Course outlines and assessment requirements can change. Confirm the latest syllabus, deadlines, and exam pattern with your faculty. Practice question lists in this repository are study aids, **not guarantees of exam questions**.
 
----
+## 🤝 Contributions
 
-# 🧠 Learning Philosophy
+Improvements are welcome: fix a bug, clarify a concept, add a tested example, or improve resource indexing. Please avoid uploading private student information, copyrighted materials you are not allowed to redistribute, generated outputs presented as real results, or duplicate files. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-> **Don't just run the code. Understand the algorithm.**
+## ⚠️ Learning note
 
-Every program in this repository is meant to help understand the **logic behind the algorithm**, its implementation, input/output, and practical application.
+Use these resources to understand the algorithms and practise explaining them. Verify results, cite sources where appropriate, and follow your university's academic-integrity requirements.
 
-```text
-Theory 📚
-   ↓
-Algorithm 🧠
-   ↓
-Python 🐍
-   ↓
-Implementation 💻
-   ↓
-Output 📊
-   ↓
-Understanding 🚀
-```
-
----
-
-# 🎓 Course Information
-
-|                     | Details                                        |
-| ------------------- | ---------------------------------------------- |
-| 🎓 University       | **GM University**                              |
-| 💻 Course           | **Artificial Intelligence & Machine Learning** |
-| 🔢 Course Code      | **UE24CS2401**                                 |
-| 📚 Semester         | **4th Semester**                               |
-| 📅 Academic Year    | **2026–27**                                    |
-| 🐍 Primary Language | **Python**                                     |
-
----
-
-# ⚠️ Disclaimer
-
-This repository is intended for **educational and academic purposes**.
-
-The programs, notes and resources are provided to assist with learning and revision.
-**Understand the concepts and write your own implementations rather than blindly copying code.**
-
-Always follow the latest instructions and evaluation criteria provided by your faculty.
-
----
-
-# ⭐ Support
-
-If this repository helped you with your AIML journey:
-
-### ⭐ Star the repository
-
-### 🍴 Fork it
-
-### 🧠 Learn from it
-
-### 🚀 Build something of your own
-
----
-
-<p align="center">
-
-### 🤖 Artificial Intelligence × Machine Learning
-
-**Learn. Code. Experiment. Build.**
-
-<br>
-
-Made with ❤️ and Python 🐍
-
-**© 2026 Atharva Kulkarni**
-
-</p>
+<p align="center"><b>Learn · Implement · Evaluate · Explain</b></p>
