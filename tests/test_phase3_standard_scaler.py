@@ -1,4 +1,6 @@
-from examples.ml.phase3.07_standard_scaler import fit_standardizer, transform
+from importlib import import_module
+fit_standardizer = import_module("examples.ml.phase3.07_standard_scaler").fit_standardizer
+transform = import_module("examples.ml.phase3.07_standard_scaler").transform
 
 def test_standardizer_centers_values():
     mean, std = fit_standardizer([2, 4, 6])
