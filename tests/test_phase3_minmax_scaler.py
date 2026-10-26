@@ -1,4 +1,6 @@
-from examples.ml.phase3.08_minmax_scaler import fit_minmax, transform
+from importlib import import_module
+fit_minmax = import_module("examples.ml.phase3.08_minmax_scaler").fit_minmax
+transform = import_module("examples.ml.phase3.08_minmax_scaler").transform
 
 def test_minmax_training_bounds():
     low, high = fit_minmax([10, 20, 30])
