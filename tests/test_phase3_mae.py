@@ -1,4 +1,5 @@
-from examples.ml.phase3.04_mae import mean_absolute_error
+from importlib import import_module
+mean_absolute_error = import_module("examples.ml.phase3.04_mae").mean_absolute_error
 import pytest
 
 def test_mae():
