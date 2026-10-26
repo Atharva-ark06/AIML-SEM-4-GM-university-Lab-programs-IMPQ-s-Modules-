@@ -1,4 +1,5 @@
-from examples.ml.phase3.06_train_test_indices import split_indices
+from importlib import import_module
+split_indices = import_module("examples.ml.phase3.06_train_test_indices").split_indices
 import pytest
 
 def test_split_indices_cover_rows():
