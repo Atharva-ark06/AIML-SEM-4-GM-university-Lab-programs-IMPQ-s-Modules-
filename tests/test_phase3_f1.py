@@ -1,4 +1,5 @@
-from examples.ml.phase3.03_f1_score import f1_score
+from importlib import import_module
+f1_score = import_module("examples.ml.phase3.03_f1_score").f1_score
 
 def test_f1_score():
     assert round(f1_score(0.8, 0.6), 6) == round(0.6857142857, 6)
