@@ -1,6 +1,9 @@
-from examples.ml.phase3.12_euclidean_distance import euclidean_distance
-from examples.ml.phase3.13_manhattan_distance import manhattan_distance
-from examples.ml.phase3.15_entropy import entropy
+from importlib import import_module
+euclidean_distance = import_module("examples.ml.phase3.12_euclidean_distance").euclidean_distance
+from importlib import import_module
+manhattan_distance = import_module("examples.ml.phase3.13_manhattan_distance").manhattan_distance
+from importlib import import_module
+entropy = import_module("examples.ml.phase3.15_entropy").entropy
 import pytest
 
 def test_distances():
