@@ -1,4 +1,5 @@
-from examples.ml.phase3.05_rmse import root_mean_squared_error
+from importlib import import_module
+root_mean_squared_error = import_module("examples.ml.phase3.05_rmse").root_mean_squared_error
 import pytest
 
 def test_rmse():
