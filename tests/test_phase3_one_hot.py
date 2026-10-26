@@ -1,4 +1,5 @@
-from examples.ml.phase3.11_one_hot_encode import one_hot
+from importlib import import_module
+one_hot = import_module("examples.ml.phase3.11_one_hot_encode").one_hot
 
 def test_one_hot_stable_categories():
     labels, matrix = one_hot(["blue", "red", "blue"])
